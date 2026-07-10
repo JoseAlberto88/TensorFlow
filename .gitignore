@@ -1,2 +1,38 @@
-.venv/
-.venv/
+# Python virtual environments
+venv/
+.env/
+env/
+tf_env/
+tfp_env/
+*.pyenv
+.python-version
+
+# Pyenv folders
+.pyenv/
+pyenv/
+
+# Bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# TensorFlow / ML artifacts
+*.h5
+*.pb
+*.tflite
+*.ckpt
+*.ckpt.*
+events.out.tfevents.*
+
+# Build / cache
+build/
+dist/
+*.egg-info/
+
+# VSCode / Codespaces
+.vscode/
+.devcontainer/
